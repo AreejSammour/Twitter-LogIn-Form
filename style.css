@@ -1,0 +1,68 @@
+body {
+    background-color: #d3cfcf;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(72, 71, 71);
+}
+
+.login-box {
+    width: 280px;
+    height: 400px;
+    background-color: rgb(214, 211, 211);
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 5px 5px 15px rgb(160, 158, 158), 1px 1px 7px 7px #e4e3e3;
+}
+
+.bird {
+    margin: 30px auto 0px auto;
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 2px 4px 8px 1px rgb(160, 158, 158);
+}
+
+h2 {
+    color: rgb(46, 153, 224);
+    font-weight: bolder;
+    font-stretch:extra-expanded;
+}
+
+.information {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(72, 71, 71);
+    margin: 2px auto 2px auto;
+    text-align: left;
+    width: 200px;
+    height: 200px;
+    font-size: 12px;
+    font-stretch: normal;
+    font-weight: bold;
+}
+
+#email,
+#password {
+    background-color: rgb(214, 211, 211);
+    border: 1px solid rgb(197, 196, 196);
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px gray inset, 0px 1px 2px 5px rgb(222, 219, 219) inset;
+    width: 200px;
+    height: 30px;
+    margin: 5px auto;
+    padding: 0px 5px 0px 10px;
+    font-size: 10px;
+    color: rgb(131, 131, 131);
+}
+
+#login {
+    background-color: rgb(46, 153, 224);
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px gray;
+    width: 200px;
+    height: 30px;
+    margin: 5px auto;
+    font-weight: bolder;
+    font-size: 10px;
+    color: #ffffff;
+}
